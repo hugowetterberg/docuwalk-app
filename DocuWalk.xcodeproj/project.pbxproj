@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DocuWalkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DocuWalkAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		AF1512C31099CAD600CEAC31 /* AuthorizationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1512C21099CAD600CEAC31 /* AuthorizationView.xib */; };
+		AF1512C61099CAEA00CEAC31 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1512C51099CAEA00CEAC31 /* AuthorizationViewController.m */; };
+		AF1512D61099CB6200CEAC31 /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF1512D51099CB6200CEAC31 /* dist.plist */; };
+		AF1512E71099CEB200CEAC31 /* libHBaseLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1512AC1099C97500CEAC31 /* libHBaseLibrary.a */; };
+		AF15135B1099D93100CEAC31 /* TaskListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF15135A1099D93100CEAC31 /* TaskListView.xib */; };
+		AF15135D1099D95800CEAC31 /* TaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF15135C1099D95800CEAC31 /* TaskView.xib */; };
+		AF1513611099D98700CEAC31 /* TaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1513601099D98700CEAC31 /* TaskListViewController.m */; };
+		AF1513BE1099DE3000CEAC31 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1513BD1099DE3000CEAC31 /* info.png */; };
+		AF1515361099FC2700CEAC31 /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1515351099FC2700CEAC31 /* TaskViewController.m */; };
+		AF151595109A1AF000CEAC31 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = AF151593109A1AF000CEAC31 /* key.png */; };
+		AF151596109A1AF000CEAC31 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = AF151594109A1AF000CEAC31 /* map.png */; };
+		AF1515B7109A1E3000CEAC31 /* WalkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1515B6109A1E3000CEAC31 /* WalkView.xib */; };
+		AF1515BA109A1E3F00CEAC31 /* WalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1515B9109A1E3F00CEAC31 /* WalkViewController.m */; };
+		AF1515DA109A1FFC00CEAC31 /* CSMapRouteLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1515D9109A1FFC00CEAC31 /* CSMapRouteLayerView.m */; };
+		AF1515DD109A201500CEAC31 /* CSMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1515DC109A201500CEAC31 /* CSMapAnnotation.m */; };
+		AF1515E1109A22B000CEAC31 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1515E0109A22B000CEAC31 /* MapKit.framework */; };
+		AF1515E6109A237500CEAC31 /* Walk.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1515E5109A237500CEAC31 /* Walk.m */; };
+		AF1515E8109A240B00CEAC31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1515E7109A240B00CEAC31 /* CoreLocation.framework */; };
+		AF151772109A705000CEAC31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF151771109A705000CEAC31 /* SystemConfiguration.framework */; };
+		AF151774109A708D00CEAC31 /* NoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF151773109A708D00CEAC31 /* NoteView.xib */; };
+		AF151778109A723800CEAC31 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF151777109A723800CEAC31 /* NoteViewController.m */; };
+		AF15177A109A728400CEAC31 /* magenta-box.png in Resources */ = {isa = PBXBuildFile; fileRef = AF151779109A728400CEAC31 /* magenta-box.png */; };
+		AF151817109A8CDB00CEAC31 /* DocuWalkNote.m in Sources */ = {isa = PBXBuildFile; fileRef = AF151816109A8CDB00CEAC31 /* DocuWalkNote.m */; };
+		AF15184B109A93F600CEAC31 /* NoteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF15184A109A93F600CEAC31 /* NoteAnnotation.m */; };
+		AF993CE81099B3FB00625045 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF993CE71099B3FB00625045 /* Default.png */; };
+		AF993CEA1099B52A00625045 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF993CE91099B52A00625045 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF1512AB1099C97500CEAC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF993CD81099A91100625045 /* HBaseLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = HBaseLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DocuWalkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocuWalkAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DocuWalkAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocuWalkAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DocuWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocuWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DocuWalk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocuWalk_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DocuWalk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DocuWalk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AF1512C21099CAD600CEAC31 /* AuthorizationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthorizationView.xib; sourceTree = "<group>"; };
+		AF1512C41099CAEA00CEAC31 /* AuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
+		AF1512C51099CAEA00CEAC31 /* AuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
+		AF1512D51099CB6200CEAC31 /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
+		AF15135A1099D93100CEAC31 /* TaskListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskListView.xib; sourceTree = "<group>"; };
+		AF15135C1099D95800CEAC31 /* TaskView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskView.xib; sourceTree = "<group>"; };
+		AF15135F1099D98700CEAC31 /* TaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListViewController.h; sourceTree = "<group>"; };
+		AF1513601099D98700CEAC31 /* TaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListViewController.m; sourceTree = "<group>"; };
+		AF1513BD1099DE3000CEAC31 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		AF1515341099FC2700CEAC31 /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		AF1515351099FC2700CEAC31 /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
+		AF151593109A1AF000CEAC31 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		AF151594109A1AF000CEAC31 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		AF1515B6109A1E3000CEAC31 /* WalkView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkView.xib; sourceTree = "<group>"; };
+		AF1515B8109A1E3F00CEAC31 /* WalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkViewController.h; sourceTree = "<group>"; };
+		AF1515B9109A1E3F00CEAC31 /* WalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkViewController.m; sourceTree = "<group>"; };
+		AF1515D8109A1FFC00CEAC31 /* CSMapRouteLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMapRouteLayerView.h; sourceTree = "<group>"; };
+		AF1515D9109A1FFC00CEAC31 /* CSMapRouteLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMapRouteLayerView.m; sourceTree = "<group>"; };
+		AF1515DB109A201500CEAC31 /* CSMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMapAnnotation.h; sourceTree = "<group>"; };
+		AF1515DC109A201500CEAC31 /* CSMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMapAnnotation.m; sourceTree = "<group>"; };
+		AF1515E0109A22B000CEAC31 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AF1515E4109A237500CEAC31 /* Walk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Walk.h; sourceTree = "<group>"; };
+		AF1515E5109A237500CEAC31 /* Walk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Walk.m; sourceTree = "<group>"; };
+		AF1515E7109A240B00CEAC31 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AF151771109A705000CEAC31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AF151773109A708D00CEAC31 /* NoteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteView.xib; sourceTree = "<group>"; };
+		AF151776109A723800CEAC31 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		AF151777109A723800CEAC31 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		AF151779109A728400CEAC31 /* magenta-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magenta-box.png"; sourceTree = "<group>"; };
+		AF15180F109A8B7200CEAC31 /* WalkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkDelegate.h; sourceTree = "<group>"; };
+		AF151815109A8CDB00CEAC31 /* DocuWalkNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocuWalkNote.h; sourceTree = "<group>"; };
+		AF151816109A8CDB00CEAC31 /* DocuWalkNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocuWalkNote.m; sourceTree = "<group>"; };
+		AF151849109A93F600CEAC31 /* NoteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteAnnotation.h; sourceTree = "<group>"; };
+		AF15184A109A93F600CEAC31 /* NoteAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteAnnotation.m; sourceTree = "<group>"; };
+		AF993CD81099A91100625045 /* HBaseLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HBaseLibrary.xcodeproj; path = HBaseLibrary/HBaseLibrary.xcodeproj; sourceTree = InternalLibraries; };
+		AF993CE71099B3FB00625045 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF993CE91099B52A00625045 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1512E71099CEB200CEAC31 /* libHBaseLibrary.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				AF1515E1109A22B000CEAC31 /* MapKit.framework in Frameworks */,
+				AF1515E8109A240B00CEAC31 /* CoreLocation.framework in Frameworks */,
+				AF151772109A705000CEAC31 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF1515DB109A201500CEAC31 /* CSMapAnnotation.h */,
+				AF1515DC109A201500CEAC31 /* CSMapAnnotation.m */,
+				AF1515D8109A1FFC00CEAC31 /* CSMapRouteLayerView.h */,
+				AF1515D9109A1FFC00CEAC31 /* CSMapRouteLayerView.m */,
+				AF1512C41099CAEA00CEAC31 /* AuthorizationViewController.h */,
+				AF1512C51099CAEA00CEAC31 /* AuthorizationViewController.m */,
+				1D3623240D0F684500981E51 /* DocuWalkAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DocuWalkAppDelegate.m */,
+				AF15135F1099D98700CEAC31 /* TaskListViewController.h */,
+				AF1513601099D98700CEAC31 /* TaskListViewController.m */,
+				AF1515341099FC2700CEAC31 /* TaskViewController.h */,
+				AF1515351099FC2700CEAC31 /* TaskViewController.m */,
+				AF1515B8109A1E3F00CEAC31 /* WalkViewController.h */,
+				AF1515B9109A1E3F00CEAC31 /* WalkViewController.m */,
+				AF1515E4109A237500CEAC31 /* Walk.h */,
+				AF1515E5109A237500CEAC31 /* Walk.m */,
+				AF151776109A723800CEAC31 /* NoteViewController.h */,
+				AF151777109A723800CEAC31 /* NoteViewController.m */,
+				AF15180F109A8B7200CEAC31 /* WalkDelegate.h */,
+				AF151815109A8CDB00CEAC31 /* DocuWalkNote.h */,
+				AF151816109A8CDB00CEAC31 /* DocuWalkNote.m */,
+				AF151849109A93F600CEAC31 /* NoteAnnotation.h */,
+				AF15184A109A93F600CEAC31 /* NoteAnnotation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DocuWalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				AF993CD81099A91100625045 /* HBaseLibrary.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				AF1515E0109A22B000CEAC31 /* MapKit.framework */,
+				AF151771109A705000CEAC31 /* SystemConfiguration.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DocuWalk_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF151779109A728400CEAC31 /* magenta-box.png */,
+				AF151593109A1AF000CEAC31 /* key.png */,
+				AF151594109A1AF000CEAC31 /* map.png */,
+				AF1513BD1099DE3000CEAC31 /* info.png */,
+				AF1512C21099CAD600CEAC31 /* AuthorizationView.xib */,
+				AF993CE91099B52A00625045 /* Icon.png */,
+				AF993CE71099B3FB00625045 /* Default.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DocuWalk-Info.plist */,
+				AF1512D51099CB6200CEAC31 /* dist.plist */,
+				AF15135A1099D93100CEAC31 /* TaskListView.xib */,
+				AF15135C1099D95800CEAC31 /* TaskView.xib */,
+				AF1515B6109A1E3000CEAC31 /* WalkView.xib */,
+				AF151773109A708D00CEAC31 /* NoteView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				AF1515E7109A240B00CEAC31 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1512A81099C97500CEAC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1512AC1099C97500CEAC31 /* libHBaseLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DocuWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DocuWalk" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocuWalk;
+			productName = DocuWalk;
+			productReference = 1D6058910D05DD3D006BFB54 /* DocuWalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DocuWalk" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AF1512A81099C97500CEAC31 /* Products */;
+					ProjectRef = AF993CD81099A91100625045 /* HBaseLibrary.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DocuWalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AF1512AC1099C97500CEAC31 /* libHBaseLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHBaseLibrary.a;
+			remoteRef = AF1512AB1099C97500CEAC31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				AF993CE81099B3FB00625045 /* Default.png in Resources */,
+				AF993CEA1099B52A00625045 /* Icon.png in Resources */,
+				AF1512C31099CAD600CEAC31 /* AuthorizationView.xib in Resources */,
+				AF1512D61099CB6200CEAC31 /* dist.plist in Resources */,
+				AF15135B1099D93100CEAC31 /* TaskListView.xib in Resources */,
+				AF15135D1099D95800CEAC31 /* TaskView.xib in Resources */,
+				AF1513BE1099DE3000CEAC31 /* info.png in Resources */,
+				AF151595109A1AF000CEAC31 /* key.png in Resources */,
+				AF151596109A1AF000CEAC31 /* map.png in Resources */,
+				AF1515B7109A1E3000CEAC31 /* WalkView.xib in Resources */,
+				AF151774109A708D00CEAC31 /* NoteView.xib in Resources */,
+				AF15177A109A728400CEAC31 /* magenta-box.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DocuWalkAppDelegate.m in Sources */,
+				AF1512C61099CAEA00CEAC31 /* AuthorizationViewController.m in Sources */,
+				AF1513611099D98700CEAC31 /* TaskListViewController.m in Sources */,
+				AF1515361099FC2700CEAC31 /* TaskViewController.m in Sources */,
+				AF1515BA109A1E3F00CEAC31 /* WalkViewController.m in Sources */,
+				AF1515DA109A1FFC00CEAC31 /* CSMapRouteLayerView.m in Sources */,
+				AF1515DD109A201500CEAC31 /* CSMapAnnotation.m in Sources */,
+				AF1515E6109A237500CEAC31 /* Walk.m in Sources */,
+				AF151778109A723800CEAC31 /* NoteViewController.m in Sources */,
+				AF151817109A8CDB00CEAC31 /* DocuWalkNote.m in Sources */,
+				AF15184B109A93F600CEAC31 /* NoteAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DocuWalk_Prefix.pch;
+				INFOPLIST_FILE = "DocuWalk-Info.plist";
+				PRODUCT_NAME = DocuWalk;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DocuWalk_Prefix.pch;
+				INFOPLIST_FILE = "DocuWalk-Info.plist";
+				PRODUCT_NAME = DocuWalk;
+			};
+			name = Release;
+		};
+		AF1518AA109AC4CA00CEAC31 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+				USER_HEADER_SEARCH_PATHS = "$(InternalLibraries)/**";
+			};
+			name = Beta;
+		};
+		AF1518AB109AC4CA00CEAC31 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DocuWalk_Prefix.pch;
+				INFOPLIST_FILE = "DocuWalk-Info.plist";
+				PRODUCT_NAME = DocuWalk;
+			};
+			name = Beta;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+				USER_HEADER_SEARCH_PATHS = "$(InternalLibraries)/**";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hugo Wetterberg";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "273DF9EC-6D4A-4486-81BD-20949BAA1AC0";
+				SDKROOT = iphoneos3.0;
+				USER_HEADER_SEARCH_PATHS = "$(InternalLibraries)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DocuWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				AF1518AB109AC4CA00CEAC31 /* Beta */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DocuWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				AF1518AA109AC4CA00CEAC31 /* Beta */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
